@@ -38,7 +38,7 @@ int main(void)
     GPIOC_MODER |=  (1U << 26);
 
     /* Enable Timer 3*/
-    //pg ??
+    //pg 125
     RCC_APB1ENR |= (1U << 1);
     
     //8MHz / 7999 + 1 = 1KHz
